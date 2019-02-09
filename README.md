@@ -1,2 +1,2 @@
 ## JK_Variants arm actuators' fix for MechEngineer
-A mod that tries to give correct arm actuators to JK Vartiants
+This mod tries to ensure compatibility between [JK_Variants](https://www.nexusmods.com/battletech/mods/18) And [Mech Engineer](https://github.com/BattletechModders/MechEngineer) mods.
