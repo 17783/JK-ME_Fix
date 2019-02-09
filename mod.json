@@ -1,0 +1,16 @@
+{
+	"Name": "JK-ME_Fix",
+	"Author": "Maintainer: CptMoore",
+	"Website": "https://github.com/17783/JK-ME_Fix",
+
+	"Enabled": true,
+	"DependsOn": ["MechEngineer", "JK_VariantsStarLeague", "JK_VariantsDLC", "JK_VariantsCampaign"],
+
+	"Manifest": [
+		{
+            "Type": "ChassisDef",
+            "Path": "JK_chassis/",
+            "ShouldMergeJSON": true
+        },
+	]
+}
