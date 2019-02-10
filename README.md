@@ -2,4 +2,4 @@
 This mod tries to ensure compatibility between [JK_Variants](https://www.nexusmods.com/battletech/mods/18) And [Mech Engineer](https://github.com/BattletechModders/MechEngineer) mods. As of now it only gives mechs proper arm actuators.
 ## TODOs and Bug Reporting
 
-* see [issues list](https://github.com/BattletechModders/MechEngineer/issues)
+* see [issues list](https://github.com/17783/JK-ME_Fix/issues)
