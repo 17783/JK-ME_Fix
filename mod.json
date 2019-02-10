@@ -5,11 +5,27 @@
 
 	"Enabled": true,
 	"DependsOn": ["MechEngineer", "JK_VariantsStarLeague", "JK_VariantsDLC", "JK_VariantsCampaign"],
+	"OptionallyDependsOn" : ["bd_nightstar"],
 
 	"Manifest": [
 		{
             "Type": "ChassisDef",
             "Path": "JK_chassis/",
+            "ShouldMergeJSON": true
+        },
+        {
+            "Type": "ChassisDef",
+            "Path": "BD_chassis/",
+            "ShouldMergeJSON": true
+        },
+        {
+            "Type": "ChassisDef",
+            "Path": "vanilla_chassis/",
+            "ShouldMergeJSON": true
+        },
+        {
+            "Type": "MechDef",
+            "Path": "vanilla_mech/",
             "ShouldMergeJSON": true
         },
 	]
