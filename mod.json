@@ -4,8 +4,8 @@
 	"Website": "https://github.com/17783/JK-ME_Fix",
 
 	"Enabled": true,
-	"DependsOn": ["MechEngineer", "JK_VariantsStarLeague", "JK_VariantsDLC", "JK_VariantsCampaign"],
-	"OptionallyDependsOn" : ["bd_nightstar"],
+	"DependsOn": ["MechEngineer", "JK_VariantsDLC", "JK_VariantsCampaign"],
+	"OptionallyDependsOn" : ["JK_VariantsStarLeague", "bd_nightstar", "Z_Sab_JK_RarityTables"],
 
 	"Manifest": [
 		{
@@ -26,6 +26,11 @@
         {
             "Type": "MechDef",
             "Path": "vanilla_mech/",
+            "ShouldMergeJSON": true
+        },
+        {
+            "Type": "MechDef",
+            "Path": "JK_rarity/",
             "ShouldMergeJSON": true
         },
 	]
