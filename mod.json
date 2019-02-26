@@ -30,6 +30,11 @@
         },
         {
             "Type": "MechDef",
+            "Path": "JK_mech/",
+            "ShouldMergeJSON": true
+        },
+        {
+            "Type": "MechDef",
             "Path": "JK_rarity/",
             "ShouldMergeJSON": true
         },
